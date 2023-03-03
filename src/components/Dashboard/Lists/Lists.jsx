@@ -52,7 +52,6 @@ const Lists = () => {
         <tbody>
           {allList.map((list, index) => (
             <tr
-              className="mb-3"
               key={list._id}
               draggable
               onDragStart={(e) => dragStart(e, index)}
