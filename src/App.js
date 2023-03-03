@@ -6,7 +6,9 @@ import Lists from "./components/Dashboard/Lists/Lists";
 function App() {
   return (
     <div className="App">
-      <Dashboard />
+      <div className="container">
+        <Dashboard />
+      </div>
     </div>
   );
 }
